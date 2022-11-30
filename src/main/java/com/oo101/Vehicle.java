@@ -8,7 +8,7 @@ public class Vehicle {
         this.name = name;
         this.speed = speed;
     }
-    public String speedUp(){
-        return name + ": speed up " + speed + " km/h";
+    public void speedUp(){
+        System.out.println(name + ": speed up " + speed + " km/h");
     }
 }
